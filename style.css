@@ -1,24 +1,38 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+}
 .container {
   display: flex;
   flex-direction: column;
+  background-color:#294C60;
+  color:white;
+  width:max-content;
+  border:2px solid white;
+  border-radius:10px;
+  padding:5px;
 }
 .row {
   margin: 5px;
 }
 .button {
-  margin: 10px;
+  margin: 5px 10px;
   border: 3px solid black;
   border-radius: 20px;
   padding: 20px;
+  background:white;
+  font-weight:bold;
 }
-
 .row input {
   font-size: 22px;
   margin: 0;
   border: solid 3px black;
-  padding: 20px 5px;
+  padding: 20px 10px;
 }
-.item-center {
-  align-items: center;
-  text-align: center;
+.item-center{
+    align-items: center;
+    text-align: center ;
 }
